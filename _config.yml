@@ -16,13 +16,13 @@
 title: MobiVM
 email: mail@mail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  MobiVM is an ahead-of-time compiler for Java bytecode, targeting iOS, MacOS and Linux.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: air
-search: true
+search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -62,15 +62,18 @@ plugins:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/MobiVM/robovm"
+    - label: "Gitter"
+      icon: "fab fa-fw fa-gitter"
+      url: "https://gitter.im/MobiVM/robovm"
+    - label: "Wiki"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/MobiVM/robovm/wiki"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://www.patreon.com/dkimitsa"
 
 defaults:
   # _posts
