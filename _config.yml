@@ -17,8 +17,8 @@ title: MobiVM
 email: mail@mail.com
 description: >- # this means to ignore newlines until "baseurl:"
   MobiVM is an ahead-of-time compiler for Java bytecode, targeting iOS, MacOS and Linux.
-twitter_username: username
-github_username: username
+github_username: obigu
+repository: obigu/mobivm-site
 minimal_mistakes_skin: air
 search: false
 atom_feed:
